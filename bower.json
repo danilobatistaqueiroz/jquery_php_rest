@@ -1,0 +1,27 @@
+{
+  "name": "jquery_php_rest",
+  "authors": [
+    "danilobatistaqueiroz <danilobatistaqueiroz@gmail.com>"
+  ],
+  "description": "app to test jquery php rest with bower",
+  "main": "assets/scripts/main.js",
+  "keywords": [
+    "jquery",
+    "php",
+    "rest"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/danilobatistaqueiroz/jquery_php_rest",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "jQuery#2.1.4",
+    "bootstrap": "^3.3.7"
+  }
+}

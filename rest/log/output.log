@@ -1,0 +1,20 @@
+[2017/10/23 02:15:49] method: 'GET' 
+
+[2017/10/23 02:15:49] create a PostgreSQL database connection
+[2017/10/23 02:15:49] Connected to the <strong>petshopdb</strong> database successfully!
+[2017/10/23 02:15:49] the uri is: /jquery_php_rest/rest/Product 
+
+[2017/10/23 02:15:49] method: 'GET' 
+
+[2017/10/23 02:16:10] create a PostgreSQL database connection
+[2017/10/23 02:16:10] Connected to the <strong>petshopdb</strong> database successfully!
+[2017/10/23 02:16:10] the uri is: /jquery_php_rest/rest/Category 
+
+[2017/10/23 02:16:10] method: 'GET' 
+
+[2017/10/23 02:16:10] create a PostgreSQL database connection
+[2017/10/23 02:16:10] Connected to the <strong>petshopdb</strong> database successfully!
+[2017/10/23 02:16:10] the uri is: /jquery_php_rest/rest/Product 
+
+[2017/10/23 02:16:10] method: 'GET' 
+
