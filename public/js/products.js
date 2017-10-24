@@ -69,6 +69,7 @@ function listProducts(){
         btnEdit.id = "btnEdit_" + rowid + "_" + columnid;
         btnEdit.name = "btnEdit_" + rowid + "_" + columnid;
         btnEdit.value = "edit";
+        btnEdit.addEventListener("click", function(){editar(btnEdit.name.substring(8,9));});
         cell.appendChild(btnEdit);
         var span = document.createElement("span");
         span.innerHTML = " ";
@@ -87,6 +88,15 @@ function listProducts(){
     })
     $("#tableProducts").append(tbl_body);
   });
+}
+
+function editar(row){
+  $("#editProductForm input[id=id]").val($('#'+row+'_1').text());
+  $("#editProductForm input[id=name]").val($('#'+row+'_2').text());
+  $("#editProductForm input[id=description]").val($('#'+row+'_3').text());
+  //$("#editProductForm category1").val($('#'+row+'_4').text());
+  $("#editProductForm input[id=price]").val($('#'+row+'_5').text());
+  $("#editform").slideToggle();
 }
 
 function buttonProductClick(type){

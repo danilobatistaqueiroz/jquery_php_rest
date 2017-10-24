@@ -3,8 +3,10 @@
 <script src="../bower_components/jquery-validation/dist/jquery.validate.min.js"></script>
 <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
 <link href="../bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css" />
+<script src="https://www.w3schools.com/lib/w3.js"></script>
 <!--script src="js/product-validation.js"></script-->
   <div class="container" style="margin-top:20px;">
+    <div id="editform" class="panel panel-default col-md-6 col-md-offset-3" w3-include-html="forms/editProductForm.html" style="display:none"></div>
     <form action="" name="productform">
       <label for="name">Name:</label><input type="text" name="name" id="name" value="" placeholder="pet socks" /><BR/>
       <label for="description">Description:</label><input type="text" name="description" id="description" value="" placeholder="cute and soft" /><BR/>
@@ -33,3 +35,6 @@
     </form>
   </div>
 <script src="js/products.js"></script>
+<script>
+w3.includeHTML();
+</script>
